@@ -1,0 +1,23 @@
+{
+  "name": "asciimath-bin",
+  "version": "1.0.0",
+  "description": "Takes .md and turns it into .html",
+  "main": "index.js",
+  "bin": {
+    "mdam": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fs-extra": "^7.0.1",
+    "get-stdin": "^6.0.0",
+    "html-minify": "^0.3.2",
+    "mathjax-node-page": "^3.0.1",
+    "meow": "^5.0.0",
+    "showdown": "^1.9.0"
+  }
+}
