@@ -5,22 +5,26 @@ mdam is a program for transpiling **M**ark**D**own and **A**scii**M**ath to rend
 ## Usage
 
 ```bash
-      $ mdam [head] <input>
-	  $ echo <input> | mdam [head]
+$ mdam [head] <input>
+$ echo <input> | mdam [head]
 ```
  
-    Options
-      -O, Output a file which has the same name but .md/.markdown replaced with .html
+## Options
+
+`-O`, Output a file which has the same name but .md/.markdown replaced with .html
  
-    Examples
+## Examples
+
 ```bash
-      $ mdam file.md > file.html
-      $ mdam head.html file.md -O # output to file.html
+$ mdam file.md > file.html
+$ mdam head.html file.md -O # output to file.html
 ```
 
 No watching is included. That is handled by external programs, like [entr](http://www.entrproject.org/):
 
-    find *.md | entr mdam /_ -O
+```bash
+find *.md | entr mdam /_ -O
+```
 
 Math is inputted in backticks (\`x=oo\`) as per AsciiMath best practice.
 
