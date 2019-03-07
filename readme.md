@@ -30,4 +30,4 @@ Math is inputted in backticks (\`x=oo\`) as per AsciiMath best practice.
 
 Read more about asciimath on [http://asciimath.org](http://asciimath.org).
 
-Also, check out my browser implementation of this program here: [https://mryakobo.github.io/asciimath/](https://github.com/MrYakobo/asciimath)
+Also, check out my browser implementation of this program here: [https://mryakobo.github.io/asciimath/](https://mryakobo.github.io/asciimath/)
